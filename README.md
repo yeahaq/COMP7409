@@ -1,1 +1,1 @@
-# COMP7409
+# Credit Scoring Based on Machine Learning
