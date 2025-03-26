@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to develop a credit scoring model using machine learning techniques to assess the credit risk of individuals or businesses. By analyzing historical credit data, the model can provide more accurate credit scores, helping financial institutions make informed lending decisions.
+This project focuses on developing machine learning models to predict the risk of home equity loan defaults using the Home Equity dataset (HMEQ). The goal is to classify applicants as high-risk (likely to default or become seriously delinquent) or low-risk, leveraging 12 input features. The project encompasses data preprocessing, model selection, hyperparameter tuning, and evaluation to identify the best-performing algorithm for this binary classification task.
 
 ## Table of Contents
 
@@ -14,13 +14,13 @@ This project aims to develop a credit scoring model using machine learning techn
 
 ## Background
 
-Credit scoring is a vital tool for assessing an individual's creditworthiness. Traditional credit scoring methods often rely on fixed rules and manual judgments, which can lead to inaccuracies and biases. By leveraging machine learning techniques, we can automatically learn scoring patterns from large datasets, improving the accuracy and fairness of the scoring process.
+Home equity loans are secured loans where borrowers use their home equity as collateral. Lenders face significant risks if borrowers default, making accurate risk assessment critical. Traditional credit scoring methods may not capture nuanced patterns in borrower behavior. Machine learning offers a data-driven approach to improve default prediction by analyzing historical loan performance.
 
 ## Dataset
 
-- [Dataset Name]: The Home Equity dataset (HMEQ)
-- [Dataset Source]: [Provide link or description](https://www.kaggle.com/datasets/ajay1735/hmeq-data/data)
-- [Dataset content]: The Home Equity dataset (HMEQ) contains baseline and loan performance information for 5,960 recent home equity loans. The target (BAD) is a binary variable indicating whether an applicant eventually defaulted or was seriously delinquent. This adverse outcome occurred in 1,189 cases (20%). For each applicant, 12 input variables were recorded.
+- **Dataset Name**: The Home Equity dataset (HMEQ)
+- **Dataset Source**: [HMEQ Link](https://www.kaggle.com/datasets/ajay1735/hmeq-data/data)
+- **Dataset content**: The Home Equity dataset (HMEQ) contains baseline and loan performance information for 5,960 recent home equity loans. The target (BAD) is a binary variable indicating whether an applicant eventually defaulted or was seriously delinquent. This adverse outcome occurred in 1,189 cases (20%). For each applicant, 12 input variables were recorded.
 
 ## Tech Stack
 
