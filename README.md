@@ -11,9 +11,6 @@ This project aims to develop a credit scoring model using machine learning techn
 - [Tech Stack](#tech-stack)
 - [Model Development](#model-development)
 - [Results Evaluation](#results-evaluation)
-- [Usage Instructions](#usage-instructions)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Background
 
@@ -21,16 +18,14 @@ Credit scoring is a vital tool for assessing an individual's creditworthiness. T
 
 ## Dataset
 
-The primary dataset used in this project includes:
-
-- [Dataset Name]: Description
-- [Dataset Source]: Provide link or description
-- [Dataset Features]: List the main features and their descriptions
+- [Dataset Name]: The Home Equity dataset (HMEQ)
+- [Dataset Source]: [Provide link or description](https://www.kaggle.com/datasets/ajay1735/hmeq-data/data)
+- [Dataset content]: The Home Equity dataset (HMEQ) contains baseline and loan performance information for 5,960 recent home equity loans. The target (BAD) is a binary variable indicating whether an applicant eventually defaulted or was seriously delinquent. This adverse outcome occurred in 1,189 cases (20%). For each applicant, 12 input variables were recorded.
 
 ## Tech Stack
 
 - **Programming Language**: Python
-- **Machine Learning Libraries**: Scikit-learn, TensorFlow, Keras
+- **Machine Learning Libraries**: Scikit-learn, TensorFlow
 - **Data Processing**: Pandas, NumPy
 - **Visualization**: Matplotlib, Seaborn
 
@@ -38,26 +33,22 @@ The primary dataset used in this project includes:
 
 1. Data Preprocessing
    - Handling missing values
+   - Handling unbalanced data
    - Feature selection
    - Data normalization
 
 2. Model Selection
-   - Logistic Regression
    - Random Forest
+   - Decision Tree
+   - K-Nearest Neighbors
    - Support Vector Machine (SVM)
+   - XG Boosting
+   - Gradient Boosting Decision Tree (GBDT)
 
 3. Model Training and Optimization
    - Hyperparameter tuning
-   - Cross-validation
 
 ## Results Evaluation
 
 - Evaluate model performance using accuracy, recall, F1-score, and other metrics.
-- Visualize results with ROC curves and confusion matrices.
-
-## Usage Instructions
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/credit-scoring-ml.git
-   cd credit-scoring-ml
+- Visualize results with confusion matrices.
